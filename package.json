@@ -1,0 +1,28 @@
+{
+  "name": "everything-random",
+  "version": "1.0.0",
+  "description": "A lightweight package to make your life so much easier",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RealizmModz/Everything-Random.git"
+  },
+  "keywords": [
+    "Realizm",
+    "Random",
+    "Number",
+    "Random",
+    "Object",
+    "Easy",
+    "Beginners"
+  ],
+  "author": "RealizmModz",
+  "license": "MPL-2.0",
+  "bugs": {
+    "url": "https://github.com/RealizmModz/Everything-Random/issues"
+  },
+  "homepage": "https://github.com/RealizmModz/Everything-Random#readme"
+}
