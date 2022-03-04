@@ -30,7 +30,27 @@ function randomArrayObject(array) {
 	}
 }
 
-module.exports = {
-	randomNumber,
-	randomArrayObject
-}
+function randomRGB() {
+	try {
+		let R = Math.floor(Math.random() * 254 + 1);
+		let G = Math.floor(Math.random() * 254 + 1);
+		let B = Math.floor(Math.random() * 254 + 1);
+
+		return {R, G, B};
+	}
+	catch(error) {
+		console.log(error);
+	};
+};
+
+exports.randomNumber = (min,max,round) => {
+	return randomNumber(min,max,round);
+};
+
+exports.randomArrayObject = (array) => {
+	return randomArrayObject(array);
+};
+
+exports.randomRGB = () => {
+	return randomRGB();
+};
