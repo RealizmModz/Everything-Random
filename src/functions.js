@@ -36,7 +36,7 @@ function randomRGB() {
 		let G = Math.floor(Math.random() * 254 + 1);
 		let B = Math.floor(Math.random() * 254 + 1);
 
-		return {R, G, B};
+		return `${R},${G},${B}`;
 	}
 	catch(error) {
 		console.log(error);
